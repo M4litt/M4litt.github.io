@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #1F1E1E;
+}
+
+#nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #f7768e;
+    font-weight: bold;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px #e0af68 dashed;
+}
+
+@keyframes dash{
+    0% {opacity: 1;}
+    49.9% {opacity: 1;}
+    50% {opacity: 0;}
+    99.9% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#dash{
+    width: 10px;
+    height: 2.5px;
+    margin: 11px 1px 0 0;
+    background-color: #f7768e;
+    box-shadow: 0 0 2.5px rgba( 255, 87, 51, 0.5);
+    animation-name: dash;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+
+.cmd1_shadow{
+    text-shadow: 0 0 2.5px rgba( 255, 87, 51, 0.5);
+}
