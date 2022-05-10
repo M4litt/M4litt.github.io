@@ -1,0 +1,18 @@
+.cell{
+    padding-top: 10px;
+}
+
+.link{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #76f7e2;
+    font-weight: bold;
+    padding: 5px 0 0px 25px;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration:underline;
+}
